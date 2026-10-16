@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bookshop</title>
+    <link rel="stylesheet" href="css/StyleSheet.css">
+    <script src="javascript/pay.js"></script>
+</head>
+
+<body id="pay_body">
+    <!-- #HEADER AND NAVBAR -->
+
+    <ul id="header">
+        <li>My Bookshop</li>
+        <li><a href="" id="home">Home</a></li>
+        <li><a href="" id="about_us">About Us</a></li>
+        <li><a href="" id="contact_us">Contact Us</a></li>
+    </ul>
+
+
+    <form id="pay_form">
+        <label for="cardNo">Card Number:</label>
+        <input type="text" id="cardNo" name="cardNo"><br>
+        <label for="month">Month:</label>
+        <select name="month" id="month">
+            <option>Month</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+        </select>
+        <label for="year">Year:</label>
+        <select name="year" id="year">
+            <option>Year</option>
+            <option value="2035">2035</option>
+            <option value="2034">2034</option>
+            <option value="2033">2033</option>
+            <option value="2032">2032</option>
+            <option value="2031">2031</option>
+            <option value="2030">2030</option>
+            <option value="2029">2029</option>
+            <option value="2028">2028</option>
+            <option value="2027">2027</option>
+            <option value="2026">2026</option>
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+        </select><br>
+        <label for="security">Security Code:</label>
+        <input type="text" id="security" name="security"><br>
+        <label>(3-4 digit code normally on the back of your card)</label><br>
+        <button type="submit" id="btn" value="submit">submit</button>
+    </form>
+ </body>
+</html>
